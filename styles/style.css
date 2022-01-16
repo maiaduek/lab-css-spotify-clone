@@ -117,3 +117,23 @@ h3 {
   text-align: center;
   width: 33vh;
 }
+
+.green-section {
+  width: 100%;
+  height: 70vh;
+  margin: 10vh;
+  margin-right: 10vh;
+  background-color: #00B172;
+  display: flex;
+  align-self: center;
+  color:white;
+}
+
+.left-text {
+  margin-left: 15vh;;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 4vh;
+}
