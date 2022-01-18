@@ -43,26 +43,26 @@ a:link {
   margin-top: 5px;
   color: white;
   text-align: center;
+  position: relative;
 }
 
 .image {
   width: 100%;
   height: auto;
-  position: relative;
+}
+
+.background-img-text-wrapper {
+  position: absolute;
+  top: calc(50% - 76px);
+  left: calc(50% - 207px);
 }
 
 .music-everyone {
-  position: absolute;
-  top: 30%;
-  left: 26%;
   font-weight: lighter;
   font-size: 7vh; 
 }
 
 .music-everyone-words {
-  position: absolute;
-  top: 50%;
-  left: 25%;
   font-weight: lighter;
 }
 
@@ -119,20 +119,19 @@ h3 {
 }
 
 .green-section {
-  width: 100%;
+  width: 90%;
   height: 80vh;
-  margin: 10vh ;
-  margin-right: 30vh;
   background-color: #00B172;
   display: flex;
   align-content: center;
   color:white;
-
+  flex-direction: row;
 }
 
 .left-text {
   margin-left: 10vh;
   width: 50vh;
+  
 }
 
 .kanye-title {
